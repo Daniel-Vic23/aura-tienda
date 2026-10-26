@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Producto | Aura</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="../index.html" class="logo">AURA</a>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="productos.html" class="activo">Más productos</a></li>
+        <li><a href="info.html">Información</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="seccion">
+      <div class="contenedor">
+        <a href="productos.html" class="volver">← Volver a productos</a>
+
+        <!-- Acá el JavaScript arma la ficha del producto según el ?id= de la dirección -->
+        <div id="detalle">
+          <noscript>Activá JavaScript para ver la ficha del producto.</noscript>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion relacionados" id="relacionados-seccion">
+      <div class="contenedor">
+        <h2 class="titulo-seccion">También te puede gustar</h2>
+        <div class="grilla grilla-cards" id="relacionados"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><strong>AURA</strong> · Ropa urbana · © 2026 Todos los derechos reservados</p>
+  </footer>
+
+  <script src="../js/productos.js"></script>
+</body>
+</html>
