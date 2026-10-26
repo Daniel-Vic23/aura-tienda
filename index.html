@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura | Ropa urbana</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="index.html" class="logo">AURA</a>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="activo">Home</a></li>
+        <li><a href="public/productos.html">Más productos</a></li>
+        <li><a href="public/info.html">Información</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO: título + imagen de fondo (la imagen se pone en style.css, en la clase .hero) -->
+    <section class="hero">
+      <h1>AURA</h1>
+      <p>Ropa urbana para los que entran y se hacen notar.</p>
+      <a href="public/productos.html" class="boton">Ver productos</a>
+    </section>
+
+    <!-- TEXTO SOBRE LA EMPRESA -->
+    <section class="seccion sobre">
+      <div class="contenedor">
+        <h2 class="titulo-seccion">Somos Aura</h2>
+        <p>
+          Nacimos en 2021 con una idea simple: que vestirte como te gusta no
+          tendría que ser caro ni complicado. Diseñamos prendas cómodas, con
+          onda y pensadas para la calle, la escuela y todo lo que pase en el medio.
+        </p>
+      </div>
+    </section>
+
+    <!-- ARTÍCULOS PRINCIPALES -->
+    <section class="seccion">
+      <div class="contenedor">
+        <h2 class="titulo-seccion">Artículos principales</h2>
+
+        <div class="grilla">
+          <a class="card" href="public/producto.html?id=remera-oversize">
+            <div class="card-img">
+              <span>Tu imagen acá</span>
+              <img src="img/remera-oversize.jpg" alt="Remera oversize Aura" onerror="this.remove()">
+            </div>
+            <div class="card-cuerpo">
+              <span class="categoria">Remeras</span>
+              <h3>Remera oversize Aura</h3>
+              <p class="precio">$24.900</p>
+            </div>
+          </a>
+
+          <a class="card" href="public/producto.html?id=buzo-canguro">
+            <div class="card-img">
+              <span>Tu imagen acá</span>
+              <img src="img/buzo-canguro.jpg" alt="Buzo canguro con capucha" onerror="this.remove()">
+            </div>
+            <div class="card-cuerpo">
+              <span class="categoria">Buzos</span>
+              <h3>Buzo canguro con capucha</h3>
+              <p class="precio">$52.900</p>
+            </div>
+          </a>
+
+          <a class="card" href="public/producto.html?id=zapatillas-urbanas">
+            <div class="card-img">
+              <span>Tu imagen acá</span>
+              <img src="img/zapatillas-urbanas.jpg" alt="Zapatillas urbanas" onerror="this.remove()">
+            </div>
+            <div class="card-cuerpo">
+              <span class="categoria">Calzado</span>
+              <h3>Zapatillas urbanas</h3>
+              <p class="precio">$89.900</p>
+            </div>
+          </a>
+
+
+        </div>
+
+        <div class="ver-mas">
+          <a href="public/productos.html" class="boton">Ver todos los productos</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><strong>AURA</strong> · Ropa urbana · © 2026 Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
